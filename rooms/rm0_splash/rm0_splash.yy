@@ -22,7 +22,7 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_267289C1","path":"rooms/SplashScreen/SplashScreen.yy",},
+    {"name":"inst_267289C1","path":"rooms/rm0_Splash/rm0_Splash.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -50,7 +50,7 @@
     "path": "folders/Salas.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SplashScreen",
+  "name": "rm0_Splash",
   "tags": [],
   "resourceType": "GMRoom",
 }
