@@ -5,7 +5,7 @@ if (enter){
 		room_goto_next();
 	}
 	if (selected_option==1){
-		//instance_create_depth(x, y, -9999, obj_credits);
+		instance_create_depth(x, y, -9999, obj_credits);
 	}
 	if (selected_option==2){
 		game_end();

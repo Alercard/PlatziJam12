@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},"order":3,},
     {"id":{"name":"obj_title_controller","path":"objects/obj_title_controller/obj_title_controller.yy",},"order":1,},
     {"id":{"name":"scr_get_center_points","path":"scripts/scr_get_center_points/scr_get_center_points.yy",},"order":0,},
     {"id":{"name":"spr_en_construccion","path":"sprites/spr_en_construccion/spr_en_construccion.yy",},"order":4,},
