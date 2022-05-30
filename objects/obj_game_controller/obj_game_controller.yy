@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_en_construccion",
-    "path": "sprites/spr_en_construccion/spr_en_construccion.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -21,7 +18,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -29,7 +28,7 @@
     "path": "folders/Objetos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_en_contruccion",
+  "name": "obj_game_controller",
   "tags": [],
   "resourceType": "GMObject",
 }

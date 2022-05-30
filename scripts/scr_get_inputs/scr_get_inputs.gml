@@ -11,6 +11,7 @@ function scr_get_inputs(){
 		down_tap = gamepad_button_check_pressed(0, gp_padd);
 
 		action = gamepad_button_check(0, gp_face3);
+		jump = gamepad_button_check_pressed(0, gp_face4);
 	
 		pause = gamepad_button_check_pressed(0, gp_start);
 		enter = gamepad_button_check_pressed(0, gp_start);
@@ -23,9 +24,13 @@ function scr_get_inputs(){
 		down_tap = keyboard_check_released(vk_down);
 
 		action = keyboard_check(ord("A"));
+		jump = keyboard_check(vk_space);
 	
 		pause = keyboard_check_released(vk_escape);
 		enter = keyboard_check_released(vk_enter);
 	}
+	
+	if right { left = false; }
+	if left { right = false; }
 	
 }
